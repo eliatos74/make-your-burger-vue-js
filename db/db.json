@@ -88,6 +88,27 @@
         "Pepino"
       ],
       "status": "Solicitado"
+    },
+    {
+      "id": "2f4f",
+      "nome": "Elias",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "e653",
+      "nome": "Ricardo",
+      "carne": "Veggie burger",
+      "pao": "Integral",
+      "opcionais": [
+        "Tomate"
+      ],
+      "status": "Solicitado"
     }
   ]
 }
