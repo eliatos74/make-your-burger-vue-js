@@ -101,21 +101,6 @@
       "status": "Solicitado"
     },
     {
-      "id": "f016",
-      "nome": "Maria",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino",
-        "Tomate",
-        "Cheddar"
-      ],
-      "status": "Solicitado"
-    },
-    {
       "id": "0345",
       "nome": "Ricardo",
       "carne": "Picanha",
