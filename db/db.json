@@ -79,36 +79,54 @@
   ],
   "burgers": [
     {
-      "id": "1ff7",
+      "id": "0119",
       "nome": "Elias",
       "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar",
+        "Tomate"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "1825",
+      "nome": "Bruna",
+      "carne": "Veggie burger",
       "pao": "Italiano Branco",
       "opcionais": [
-        "Bacon",
+        "Tomate",
         "Pepino"
       ],
       "status": "Solicitado"
     },
     {
-      "id": "2f4f",
-      "nome": "Elias",
-      "carne": "Maminha",
+      "id": "f016",
+      "nome": "Maria",
+      "carne": "Alcatra",
       "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate",
         "Cheddar"
       ],
       "status": "Solicitado"
     },
     {
-      "id": "e653",
+      "id": "0345",
       "nome": "Ricardo",
-      "carne": "Veggie burger",
-      "pao": "Integral",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
       "opcionais": [
-        "Tomate"
+        "Bacon",
+        "Salame",
+        "Cheddar"
       ],
       "status": "Solicitado"
     }
-  ]
+  ],
+  "idCounter": 1
 }
