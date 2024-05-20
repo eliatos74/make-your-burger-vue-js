@@ -1,6 +1,6 @@
 <template>
   <div id="burger-table">
-    <Message :msg="msg" v-show="msg"/>
+    <Message :msg="msg" v-show="msg" />
     <div>
       <div id="burger-table-heading">
         <div class="order-id">#:</div>
@@ -25,7 +25,11 @@
           </ul>
         </div>
         <div>
-          <select name="status" id="status" @change="updateBurger($event,burger.id)">
+          <select
+            name="status"
+            id="status"
+            @change="updateBurger($event, burger.id)"
+          >
             <option value="">Selecione</option>
             <option
               v-for="s in status"
@@ -50,13 +54,13 @@ import Message from "@/components/Message.vue";
 
 export default {
   name: "Dashboard",
-  components: {Message},
+  components: { Message },
   data() {
     return {
       burges: null,
       burger_id: null,
       status: [],
-      msg: null
+      msg: null,
     };
   },
 
@@ -101,13 +105,13 @@ export default {
     async updateBurger(event, id) {
       const option = event.target.value;
 
-      const dataJson = JSON.stringify({status: option});
+      const dataJson = JSON.stringify({ status: option });
 
       const req = await fetch(`http://localhost:3000/burgers/${id}`, {
         method: "PATCH",
         headers: { "Content-Type": "application/json" },
-        body: dataJson
-      })
+        body: dataJson,
+      });
 
       const res = await req.json();
 
@@ -120,8 +124,7 @@ export default {
       }, 4000);
 
       console.log(res);
-
-    }
+    },
   },
   mounted() {
     this.getPedidos();
