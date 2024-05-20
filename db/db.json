@@ -87,7 +87,7 @@
         "Cheddar",
         "Tomate"
       ],
-      "status": "Finalizado"
+      "status": "Solicitado"
     },
     {
       "id": "1825",
@@ -97,16 +97,6 @@
       "opcionais": [
         "Tomate",
         "Pepino"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "5cd4",
-      "nome": "Bruna",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon"
       ],
       "status": "Solicitado"
     }
