@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style scoped>
-#main-banner{
+#main-banner {
   background-image: url("/public/img/burger.jpg");
   background-position: 0 -250px;
   background-size: cover;
@@ -21,11 +21,11 @@ export default {
   justify-content: flex-start;
 }
 
-#main-banner h1{
-    color: #fff;
-    text-align: center;
-    font-size: 60px;
-    background-color: #222;
-    padding: 20px 40px;
+#main-banner h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  background-color: #222;
+  padding: 20px 40px;
 }
 </style>

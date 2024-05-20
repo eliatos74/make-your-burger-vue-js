@@ -87,7 +87,7 @@
         "Cheddar",
         "Tomate"
       ],
-      "status": "Solicitado"
+      "status": "Finalizado"
     },
     {
       "id": "1825",
@@ -101,14 +101,12 @@
       "status": "Solicitado"
     },
     {
-      "id": "0345",
-      "nome": "Ricardo",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
+      "id": "5cd4",
+      "nome": "Bruna",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
       "opcionais": [
-        "Bacon",
-        "Salame",
-        "Cheddar"
+        "Bacon"
       ],
       "status": "Solicitado"
     }

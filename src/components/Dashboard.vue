@@ -24,12 +24,12 @@
           </ul>
         </div>
         <div>
-          <select name="status" id="status">
+          <select name="status" id="status" @change="updateBurger($event,burger.id)">
             <option value="">Selecione</option>
             <option
               v-for="s in status"
               :key="s.id"
-              value="s.tipo"
+              :value="s.tipo"
               :selected="burger.status == s.tipo"
             >
               {{ s.tipo }}
@@ -87,6 +87,22 @@ export default {
 
       this.getPedidos();
     },
+    async updateBurger(event, id) {
+      const option = event.target.value;
+
+      const dataJson = JSON.stringify({status: option});
+
+      const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: dataJson
+      })
+
+      const res = await req.json();
+
+      console.log(res);
+
+    }
   },
   mounted() {
     this.getPedidos();
